@@ -7,9 +7,10 @@ This plugin sends Wordpress metrics to the AMP Server.
 
 ## Usage
 
-1. Install this plugin by cloning or copying this repository to your `wp-contents/plugins` folder
-2. Configure your CONSTANTS as explained below
-2. Activate the plugin through the WordPress admin interface
+1. Install this plugin by cloning or copying this repository to your `wp-contents/plugins` folder.
+2. Install the plugin dependencies with composer.
+3. Configure your CONSTANTS as explained below.
+4. Activate the plugin through the WordPress admin interface
 
 **Note:** this plugin does not do anything by default and has no admin interface. Your CONSTANTS must be configured first.
 
