@@ -25,5 +25,9 @@ define('APM_ENVIRONMENT', 'development');
 define('APM_ACTIVE', true);
 ```
 
+## References
+* https://github.com/philkra/elastic-apm-php-agent
+* https://www.elastic.co/guide/en/apm/server/current/exported-fields-system.html
+
 ## License
 The Wordpress APM agent Elasticsearch plugin is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
