@@ -40,7 +40,7 @@ class APM {
       'system.memory.actual.free' => $mem['free']
     ]));
 
-    $this->transaction = $this->agent->startTransaction('GET '.$url);
+    $this->transaction = $this->agent->startTransaction($_SERVER['REQUEST_METHOD']." ".$url);
 
   }
 
