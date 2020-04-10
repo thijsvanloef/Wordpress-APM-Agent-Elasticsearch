@@ -12,6 +12,9 @@
 
   require 'vendor/autoload.php';
 
+  use GuzzleHttp\Psr7;
+  use GuzzleHttp\Exception\ConnectException;
+
   if ( ! defined( 'WP_APM_PLUGIN_PATH' ) ) {
     define( 'WP_APM_PLUGIN_PATH', plugin_dir_path( __FILE__ ) );
   }
@@ -37,12 +40,19 @@
   }
 
   if ( ! defined( 'APM_ACTIVE' ) ) {
-    define( 'APM_ACTIVE', false );
+    define( 'APM_ACTIVE', true );
   }
 
   require_once( WP_APM_PLUGIN_PATH . 'classes/APM.php' );
 
-  new APM();
+  try {
 
+    new APM();
+
+  }catch(ConnectException $e){
+
+  }catch(Exception $e){
+
+  }
 
 ?>
