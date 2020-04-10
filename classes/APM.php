@@ -18,6 +18,7 @@ class APM {
       'secretToken' => APM_SECRETTOKEN,
       'active'      => APM_ACTIVE,
       'hostname'    => gethostname(),
+      'environment' => APM_ENVIRONMENT,
       'env'         => ['DOCUMENT_ROOT', 'REMOTE_ADDR', 'REMOTE_USER', 'APM_ENVIRONMENT']
     ];
 

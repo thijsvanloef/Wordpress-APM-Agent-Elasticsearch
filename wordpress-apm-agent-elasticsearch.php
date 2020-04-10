@@ -43,6 +43,10 @@
     define( 'APM_ACTIVE', true );
   }
 
+  if ( ! defined( 'APM_ENVIRONMENT' ) ) {
+    define( 'APM_ENVIRONMENT', 'local' );
+  }
+
   require_once( WP_APM_PLUGIN_PATH . 'classes/APM.php' );
 
   try {
