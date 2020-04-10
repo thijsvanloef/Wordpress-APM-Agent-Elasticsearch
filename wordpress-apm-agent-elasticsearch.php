@@ -37,7 +37,7 @@
   }
 
   if ( ! defined( 'APM_ACTIVE' ) ) {
-    define( 'APM_ACTIVE', true );
+    define( 'APM_ACTIVE', false );
   }
 
   require_once( WP_APM_PLUGIN_PATH . 'classes/APM.php' );
