@@ -1,0 +1,6 @@
+{
+    "name": "mfse/wordpress-apm-agent-elasticsearch",
+    "require": {
+        "philkra/elastic-apm-php-agent": "^7.0.0-rc3"
+    }
+}
