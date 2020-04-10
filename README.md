@@ -1,4 +1,4 @@
-# Wordpress-APM-Agent-Elasticsearch
+# Wordpress APM Agent Elasticsearch
 A (unofficial) WordPress plugin to send data to APM agent of Elasticsarch.
 
 ## What?
