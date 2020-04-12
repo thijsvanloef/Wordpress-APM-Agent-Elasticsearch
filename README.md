@@ -15,7 +15,7 @@ This plugin sends Wordpress metrics to the AMP Server.
 **Note:** this plugin does not do anything by default and has no admin interface. Your CONSTANTS must be configured first.
 
 ## Configuration
-Add these constants to your `wp-config.php`, and Replace the values according to the configuration of your APM SERVER.
+Add these constants to your `wp-config.php`, and replace the values according to the configuration of your APM SERVER.
 
 ```php
 define('APM_APPNAME', 'app-name');
