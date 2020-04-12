@@ -9,20 +9,9 @@ class APM {
   protected $agent = null;
   protected $transaction = null;
 
-  public function __construct() {
+  public function __construct($agent) {
 
-    $config = [
-      'appName'     => APM_APPNAME,
-      'appVersion'  => APM_APPVERSION,
-      'serverUrl'   => APM_SERVERURL,
-      'secretToken' => APM_SECRETTOKEN,
-      'active'      => APM_ACTIVE,
-      'hostname'    => gethostname(),
-      'environment' => APM_ENVIRONMENT,
-      'env'         => ['DOCUMENT_ROOT', 'REMOTE_ADDR', 'REMOTE_USER', 'APM_ENVIRONMENT']
-    ];
-
-    $this->agent = new \PhilKra\Agent($config);
+    $this->agent = $agent;
 
     $this->create_transaction($_SERVER['REQUEST_URI']);
 
