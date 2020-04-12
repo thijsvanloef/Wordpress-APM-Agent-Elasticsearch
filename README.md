@@ -7,7 +7,7 @@ This plugin sends Wordpress metrics to the [APM Server](https://www.elastic.co/p
 
 ## Usage
 
-1. Install this plugin by [downloading](https://github.com/matheusevangelista/Wordpress-APM-Agent-Elasticsearch/releases/download/v1.0.1/wordpress-apm-agent-elasticsearch.zip), cloning or copying this repository to your `wp-contents/plugins` folder.
+1. Install this plugin by [downloading](https://github.com/matheusevangelista/Wordpress-APM-Agent-Elasticsearch/releases/download/v1.0.3/wordpress-apm-agent-elasticsearch.zip), cloning or copying this repository to your `wp-contents/plugins` folder.
 2. Install the plugin dependencies with [composer](https://getcomposer.org).
 3. Configure your CONSTANTS as explained below.
 4. Activate the plugin through the WordPress admin interface
