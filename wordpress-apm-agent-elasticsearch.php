@@ -4,7 +4,7 @@
     * Plugin Name: Wordpress APM Agent Elasticsearch
     * Plugin URI: https://github.com/matheusevangelista/Wordpress-APM-Agent-Elasticsearch
     * Description: A (unofficial) WordPress plugin to send data to APM agent of Elasticsarch.
-    * Version: 1.0.0
+    * Version: 1.0.1
     * Author: Matheus Evangelista
     * Author URI: https://github.com/matheusevangelista
     * License: MIT
