@@ -1,5 +1,5 @@
 {
-    "name": "mfse/wordpress-apm-agent-elasticsearch",
+    "name": "thijsvanloef/wordpress-apm-agent-elasticsearch",
     "description": "A (unofficial) WordPress plugin to send data to APM",
     "type": "wordpress-plugin",
     "require": {
