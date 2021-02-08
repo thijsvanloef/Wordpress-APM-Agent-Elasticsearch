@@ -2,6 +2,7 @@
     "name": "thijsvanloef/wordpress-apm-agent-elasticsearch",
     "description": "A (unofficial) WordPress plugin to send data to APM",
     "type": "wordpress-plugin",
+    "license": "GPL-3.0-or-later",
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
