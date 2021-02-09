@@ -14,7 +14,6 @@
     define( 'WP_APM_PLUGIN_PATH', plugin_dir_path( __FILE__ ) );
   }
 
-  require_once( WP_APM_PLUGIN_PATH. 'vendor/autoload.php' );
   require_once( WP_APM_PLUGIN_PATH . 'classes/APM.php' );
 
   use GuzzleHttp\Psr7;

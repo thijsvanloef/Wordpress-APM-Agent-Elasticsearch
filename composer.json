@@ -1,13 +1,11 @@
 {
     "name": "matheusevangelista/wordpress-apm-agent-elasticsearch",
+    "description": "A (unofficial) WordPress plugin to send data to APM agent of Elasticsearch.",
     "type": "wordpress-plugin",
     "require": {
       "composer/installers": "^1.9.0"
     },
     "require-dev": {
         "philkra/elastic-apm-php-agent": "7.0.0-rc3"
-    },
-    "autoload": {
-        "classmap": [ "classes" ]
-      }
+    }
 }
