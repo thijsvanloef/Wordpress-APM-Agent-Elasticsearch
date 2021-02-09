@@ -6,5 +6,8 @@
     },
     "require-dev": {
         "philkra/elastic-apm-php-agent": "7.0.0-rc3"
-    }
+    },
+    "autoload": {
+        "classmap": [ "classes" ]
+      }
 }
