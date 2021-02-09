@@ -1,17 +1,8 @@
 {
-    "name": "yoast/wordpress-apm-agent-elasticsearch",
+    "name": "matheusevangelista/wordpress-apm-agent-elasticsearch",
     "type": "wordpress-plugin",
-    "homepage": "https://yoast.com",
-    "license": "GPL-3.0-or-later",
-    "authors": [
-      {
-        "name": "Team Yoast",
-        "email": "support@yoast.com",
-        "homepage": "https://yoast.com"
-      }
-    ],
     "require": {
-      "php": ">=7.1",
-      "composer/installers": "^1.9.0"
+      "composer/installers": "^1.9.0",
+        "philkra/elastic-apm-php-agent": "7.0.0-rc3"
     }
 }
