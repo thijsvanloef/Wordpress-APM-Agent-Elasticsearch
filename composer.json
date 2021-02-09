@@ -1,15 +1,9 @@
 {
-    "name": "thijs/wordpress-apm-agent-elasticsearch",
-    "description": "A (unofficial) WordPress plugin to send data to APM",
+    "name": "yoast/wordpress-apm-agent-elasticsearch",
+    "description": "A WordPress plugin to send data to APM",
     "type": "wordpress-plugin",
     "require": {
-        "philkra/elastic-apm-php-agent": "7.0.0-rc3",
-        "composer/installers": "1.9.0"
-    },
-    "authors": [
-        {
-            "name": "Thijs van Loef",
-            "email": "thijsvanloef@yoast.com"
-        }
-    ]
+        "composer/installers": "~1.0",
+        "philkra/elastic-apm-php-agent": "7.0.0-rc3"
+    }
 }
