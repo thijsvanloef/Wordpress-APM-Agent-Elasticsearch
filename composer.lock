@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "735e96358c82323001e5577afac8ffda",
+    "content-hash": "dfbee12bd30030a17f46167ce3cda807",
     "packages": [
         {
             "name": "composer/installers",
@@ -149,7 +149,9 @@
                 }
             ],
             "time": "2021-01-14T11:07:16+00:00"
-        },
+        }
+    ],
+    "packages-dev": [
         {
             "name": "guzzlehttp/guzzle",
             "version": "6.5.5",
@@ -724,7 +726,6 @@
             "time": "2021-01-07T16:49:33+00:00"
         }
     ],
-    "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
